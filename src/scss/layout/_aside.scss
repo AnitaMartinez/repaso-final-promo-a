@@ -1,0 +1,23 @@
+.aside {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+
+.author {
+    width: 50%;
+
+    &__image {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+}
+
+.lists {
+    &__lessons {
+        margin-bottom: 20px;
+    }
+}

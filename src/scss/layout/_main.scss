@@ -1,0 +1,12 @@
+.main {
+    border-top: 1px solid $main-color;
+    padding-top: 25px;
+
+    &__article {
+        margin-bottom: 20px;
+
+        &__title {
+            margin-bottom: 10px;
+        }
+    }
+}
